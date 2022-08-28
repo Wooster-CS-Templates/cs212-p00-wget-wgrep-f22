@@ -130,6 +130,6 @@ even this line, which has barfood in it, will be printed.
 * For simplicity, if passed the empty string as a search string, **wgrep** can either match NO lines or match ALL lines, both are acceptable.
 
 ## Grading 20 points
-7 points - All wcat tests pass
-7 points - All wgrep tests pass
-6 points - Code follows the [class style guidelines](http://csweb.wooster.edu/dguarnera/cs212/resources/guides/style-guidelines.html)
+* 7 points - All wcat tests pass
+* 7 points - All wgrep tests pass
+* 6 points - Code follows the [class style guidelines](http://csweb.wooster.edu/dguarnera/cs212/resources/guides/style-guidelines.html)
