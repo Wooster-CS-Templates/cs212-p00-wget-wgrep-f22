@@ -285,3 +285,7 @@ cython_debug/
 
 # OSTEP TEST OUTPUT
 */tests-out/
+
+# OSTEP IGNORE TEST DIRS
+!*/tests/*.out
+!*/tests/*.a
