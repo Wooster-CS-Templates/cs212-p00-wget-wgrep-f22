@@ -77,7 +77,8 @@ A couple of points here. First, note that **fopen()** takes two arguments: the *
 Second, note the *critical* checking of whether the **fopen()** actually succeeded. This is not Java where an exception will be thrown when things goes wrong; rather, it is C, and it is expected (in good programs, i.e., the only kind you'd want to write) that you always will check if the call succeeded. Reading the man page tells you the details of what is returned when an error is encountered; in this case, the macOS man page says:
 
 ```
-Upon successful completion fopen(), fdopen(), freopen() and fmemopen() return a FILE pointer.  Otherwise, NULL is returned and the global variable errno is set to indicate the error. 
+Upon successful completion fopen(), fdopen(), freopen() and fmemopen() return a FILE pointer.
+Otherwise, NULL is returned and the global variable errno is set to indicate the error. 
 ```
 
 Thus, as the code above does, please check that **fopen()** does not return NULL before trying to use the FILE pointer it returns.
